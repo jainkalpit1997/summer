@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "testapp/base.html" %}
+{% block body_block%}
+<form class="" method="post">
+  <h1>thanks for visiting</h1>
+  <!-- <input type="submit" name="" value="Login"> -->
+  {%csrf_token%}
+</form>
+{%endblock%}
